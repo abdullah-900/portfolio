@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.my-flex{
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+}
+
+.html {
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+  background-color:#506D84;
+   a {
+    color: white; 
+
+  }
+}
+
+.Hero{
+  background-color: #889EAF;
+  padding: 50px; 
+  h3{
+    color: white;
+  }
+  p{
+    font-family: monospace;
+    color: white;
+
+ 
+  }
+
+}
+
+.Skills{
+  margin-top: 10px;
+   
+  transform: translateX(-100%);
+  animation: slideIn 1.5s forwards;
+  
+  @keyframes slideIn {
+    100% {
+      transform: translateX(0%);
+    }
+  }
+ 
+  h2{
+ margin-bottom: 20px; 
+  }
+}
