@@ -30,7 +30,7 @@ function TypingAnimation({ text, delay }) {
   return (
   
     <Container ref={ref}  fluid className='my-flex Hero flex-column' >
-<Image style={{width:'150px' ,height:'150px'}}  src='/myimage.png'  />
+<Image style={{width:'150px' ,height:'150px'}}  src='myimage.png'  />
 <h2>Hi, Im Abdullah</h2>
 <TypingAnimation   text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
          Specializes in creating high-quality, responsive web applications with clean, efficient code.
