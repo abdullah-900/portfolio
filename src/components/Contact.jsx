@@ -5,13 +5,11 @@ import { BsGithub } from "react-icons/bs";
 const Contact = ({set}) => {
   let val;
 const screenWidth = window.innerWidth;
-console.log(screenWidth)
 if (screenWidth<=500) {
   val=35;
 }else {
   val=50;
 }
-console.log(val)
 const ref=useRef(null)
 set(ref.current)
   return (

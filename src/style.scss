@@ -24,7 +24,7 @@ padding: 25px;
   background-color:#A5D7E8;
    a {
     color: #0B2447; 
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     @include mobile(){
       font-size: 1rem;
     }
@@ -75,7 +75,7 @@ padding: 25px;
     filter: brightness(0.6);
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #0B2447 ;
     @include mobile(){
       font-size: 1.5rem;
@@ -96,7 +96,7 @@ padding: 25px;
   }
   margin-bottom: 100px;
   h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     @include mobile(){
       font-size: 1.5rem;
     }
@@ -110,7 +110,7 @@ padding: 25px;
   padding-top: 30px;
   padding-bottom: 30px;
   h2{
-    font-size: 1.75rem;
+    font-size: 2rem;
    gap: 30px;
     color: #0B2447;
     @include mobile(){
