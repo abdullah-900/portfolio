@@ -2,10 +2,12 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
+import { useRef } from 'react';
 
-const Hero = () => {
-   
-
+const Hero = ({set}) => {
+  const ref=useRef(null)
+  set(ref.current)
+ 
 function TypingAnimation({ text, delay }) {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,17 +25,19 @@ function TypingAnimation({ text, delay }) {
 
     return () => clearInterval(intervalId);
   }, [text, delay, currentIndex]);
-  return <p>{displayText}</p>;
+  return <p className='text-sm'>{displayText}</p>;
 }
   return (
-   
-    <Container fluid className='my-flex Hero flex-column' >
+  
+    <Container ref={ref}  fluid className='my-flex Hero flex-column' >
 <Image style={{width:'150px' ,height:'150px'}}  src='/myimage.png'  />
-<h3>Hi, Im Abdullah</h3>
-<TypingAnimation  text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
+<h2>Hi, Im Abdullah</h2>
+<TypingAnimation   text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
          Specializes in creating high-quality, responsive web applications with clean, efficient code.
          Committed to collaboration and delivering exceptional user experiences. Let's build something great together!" delay={70} />
     </Container>
+
+
 
    
   )

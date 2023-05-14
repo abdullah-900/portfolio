@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
+
  import { Container, Row, Col, Image } from 'react-bootstrap';
-const SkillGallery = () => {
-let width= window.innerWidth;
-console.log(width)
+const SkillGallery = ({set}) => {
+const ref=useRef(null)
+set(ref.current)
   return (
-  
-    <Container className='my-flex flex-column Skills'>
+    <Container ref={ref} fluid  className='my-flex flex-column Skills'>
    <h2>My Skills</h2>
       <Row>
         <Col>
