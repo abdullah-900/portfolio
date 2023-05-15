@@ -1,11 +1,12 @@
-import React, { useRef,useState } from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import React, {useState } from 'react'
+import { Container, Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
+import { BsGithub } from "react-icons/bs";
 import { useMediaQuery } from 'react-responsive'
-const ProjectGallery = ({set}) => {
+const ProjectGallery = () => {
 
   const [show, setShow] = useState(false);
   const [secModal,setSecModal]=useState(false)
@@ -33,11 +34,10 @@ const ProjectGallery = ({set}) => {
     setIndext(selectedIndex);
   };
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
- const ref=useRef(null)
- set(ref.current)
+
  if (isMobile) {
   return(
-  <Container  fluid ref={ref} className='my-flex projects flex-column'>
+  <Container  id='projects' className='my-flex projects flex-column'>
   <h2>My Projects</h2>
 <Row>
 <Card>
@@ -111,9 +111,15 @@ const ProjectGallery = ({set}) => {
       </Modal>
       <Card.Body>
         <Card.Title>Chat App</Card.Title>
-    
-        <Button href="https://dynamic-madeleine-302dff.netlify.app/Login" target="_blank" variant="primary">visit</Button>
+        A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. <br></br>
+
       </Card.Body>
+     <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://dynamic-madeleine-302dff.netlify.app" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/chat-app'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
     
 </Row>
@@ -180,9 +186,14 @@ const ProjectGallery = ({set}) => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-    
-        <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
+        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data and allows users to add movies to their favorites list.<br></br>
       </Card.Body>
+      <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/movieapp'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
 </Row>
 <Row>
@@ -229,15 +240,21 @@ const ProjectGallery = ({set}) => {
       </Modal>
       <Card.Body>
         <Card.Title>Todo List</Card.Title>
-        <Button href="https://enchanting-snickerdoodle-a59706.netlify.app/" target="_blank" variant="primary">visit</Button>
+        A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.<br></br>
       </Card.Body>
+      <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/Todo-List'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
 </Row>
    </Container>
   )
  }else {
   return (
-    <Container fluid ref={ref} className='my-flex projects flex-column'>
+    <Container id='projects'  fluid  className='my-flex projects flex-column'>
     <h2>My Projects</h2>
     <Row>
         <Col>
@@ -314,8 +331,14 @@ const ProjectGallery = ({set}) => {
       </Modal>
       <Card.Body>
         <Card.Title>Chat App</Card.Title>
-        <Button href="https://dynamic-madeleine-302dff.netlify.app/Login" target="_blank" variant="primary">visit</Button>
+        A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. 
       </Card.Body>
+     <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://dynamic-madeleine-302dff.netlify.app" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/chat-app'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
          </Col>
          <Col>
@@ -381,9 +404,14 @@ const ProjectGallery = ({set}) => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-    
-        <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
+        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data and allows users to add movies to their favorites list.<br></br>
       </Card.Body>
+      <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/movieapp'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
          </Col>
          <Col>
@@ -428,10 +456,16 @@ const ProjectGallery = ({set}) => {
     </Carousel>
         </Modal.Body>
       </Modal>
-      <Card.Body>
+      <Card.Body> 
         <Card.Title>Todo List</Card.Title>
-        <Button href="https://enchanting-snickerdoodle-a59706.netlify.app/" target="_blank" variant="primary">visit</Button>
+        A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.<br></br>
       </Card.Body>
+      <Container fluid  className="d-flex cardbuttons justify-content-around">
+     <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
+     <a href='https://github.com/abdullah-900/Todo-List'>
+     <BsGithub color='black'  size='2rem'/>
+     </a>
+     </Container>
     </Card>
          </Col>
          </Row>

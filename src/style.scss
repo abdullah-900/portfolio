@@ -1,3 +1,11 @@
+
+
+body {
+  background-color: #08AEEA;
+  background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+  
+}
+
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .my-flex{
@@ -5,26 +13,31 @@
   @extend .justify-content-center;
   @extend .align-items-center;
 }
+@mixin pc {
+  @media screen and (min-width:1200px) {
+    @content;
+  }
+}
 @mixin mobile{
   @media screen  and (max-width: 500px) {
     @content
   }
 }
-#root{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  
-}
+
+
 .html,body {
   font-family: 'Open Sans', sans-serif;
 }
 .navbar{
+  background-color: #045B7A;
 padding: 25px;
-  background-color:#A5D7E8;
+
+span{
+  color: white;
+}
    a {
-    color: #0B2447; 
     font-size: 1.2rem;
+  color: white;
     @include mobile(){
       font-size: 1rem;
     }
@@ -39,20 +52,20 @@ padding: 25px;
   margin-top: 50px;
   gap: 20px;
   flex: 1;
- background-color: #0B2447;
+
  padding:100px 20px 80px 20px ;
   h2{
-
+    color: #022B3B;
     @include mobile(){
       font-size:1.25rem;
     }
-    color: white;
+    
     font-size:1.75rem ;
   }
   p{
     font-size: 1.25rem;
     font-family: monospace;
-    color: white;
+  color: #022B3B;
     @include mobile(){
       font-size: 0.875rem;
     }
@@ -62,6 +75,17 @@ padding: 25px;
 }
 
 .Skills{
+
+  .next{
+@include pc(){
+margin-top: 30px;
+}
+  }
+  .boot {
+   @include pc(){
+    margin-top: 15px;
+   }
+  }
   gap: 50px;
   flex: 1;
   transform: translateX(-100%);
@@ -76,7 +100,7 @@ padding: 25px;
   }
   h2 {
     font-size: 2rem;
-    color: #0B2447 ;
+    color: #022B3B;
     @include mobile(){
       font-size: 1.5rem;
     }
@@ -96,6 +120,7 @@ padding: 25px;
   }
   margin-bottom: 100px;
   h2{
+    color: #022B3B;
     font-size: 2rem;
     @include mobile(){
       font-size: 1.5rem;
@@ -105,17 +130,24 @@ padding: 25px;
 
 
 .contact {
+  gap: 30px;
   flex: 1;
-  background-color:#A5D7E8;
+  background-color: #045B7A;
   padding-top: 30px;
   padding-bottom: 30px;
   h2{
     font-size: 2rem;
-   gap: 30px;
-    color: #0B2447;
+   color: white;
     @include mobile(){
       font-size: 1.5rem;
     }
   }
 
+}
+.card{
+  .cardbuttons{
+    margin-top: 20px;
+  }
+padding: 15px;
+border-radius: 5px;
 }

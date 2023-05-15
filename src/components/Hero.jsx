@@ -2,12 +2,9 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
-import { useRef } from 'react';
 
-const Hero = ({set}) => {
-  const ref=useRef(null)
-  set(ref.current)
- 
+
+const Hero = () => {
 function TypingAnimation({ text, delay }) {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +26,7 @@ function TypingAnimation({ text, delay }) {
 }
   return (
   
-    <Container ref={ref}  fluid className='my-flex Hero flex-column' >
+    <Container id='hero'  fluid className='my-flex Hero flex-column' >
 <Image style={{width:'150px' ,height:'150px'}}  src='myimage.png'  />
 <h2>Hi, Im Abdullah</h2>
 <TypingAnimation   text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
