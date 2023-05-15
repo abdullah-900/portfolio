@@ -80,6 +80,9 @@ span{
 @include pc(){
 margin-top: 30px;
 }
+@include mobile(){
+  margin-top: 20px;
+}
   }
   .boot {
    @include pc(){

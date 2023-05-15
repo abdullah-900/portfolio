@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from "react";
+import { Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
 
@@ -27,11 +28,17 @@ function TypingAnimation({ text, delay }) {
   return (
   
     <Container id='hero'  fluid className='my-flex Hero flex-column' >
+<Row>
 <Image style={{width:'150px' ,height:'150px'}}  src='myimage.png'  />
-<h2>Hi, Im Abdullah</h2>
+</Row>
+<Row>
+  <h2>Hi, Im Abdullah</h2>
+</Row>
+<Row>
 <TypingAnimation   text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
          Specializes in creating high-quality, responsive web applications with clean, efficient code.
          Committed to collaboration and delivering exceptional user experiences. Let's build something great together!" delay={70} />
+</Row>
     </Container>
 
 
