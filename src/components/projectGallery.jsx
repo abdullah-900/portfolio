@@ -111,7 +111,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Chat App</Card.Title>
-        A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. <br></br>
+        <p>A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API.</p>
 
       </Card.Body>
      <Container fluid  className="d-flex cardbuttons justify-content-around">
@@ -186,7 +186,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data. It allows users to explore movies, add them to their favorites list, and view ratings and reviews in a compact format when they click on the movie's rating.<br></br>
+        <p>FilmFinder is a React and SCSS-based movie search app that allows users to explore movies, add them to favorites, and view compact ratings and reviews.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
@@ -240,7 +240,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Todo List</Card.Title>
-        A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.<br></br>
+        <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
@@ -331,7 +331,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Chat App</Card.Title>
-        A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. 
+        <p>A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. </p>
       </Card.Body>
      <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://dynamic-madeleine-302dff.netlify.app" target="_blank" variant="primary">visit</Button>
@@ -404,7 +404,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data. It allows users to explore movies, add them to their favorites list, and view ratings and reviews in a compact format when they click on the movie's rating.<br></br>
+        <p>FilmFinder is a React and SCSS-based movie search app that allows users to explore movies, add them to favorites, and view compact ratings and reviews.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
@@ -458,7 +458,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body> 
         <Card.Title>Todo List</Card.Title>
-        A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.<br></br>
+        <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
