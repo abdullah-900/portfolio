@@ -1,5 +1,4 @@
 
-
 body {
   background-color: #08AEEA;
   background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
@@ -31,43 +30,37 @@ body {
 .navbar{
   background-color: #045B7A;
 padding: 25px;
-
-span{
-  color: white;
-}
-   a {
-    font-size: 1.2rem;
+margin-bottom: 100px;
+   a,span{
+    font-size: 1rem;
   color: white;
     @include mobile(){
-      font-size: 1rem;
+      font-size: 1.125rem;
     }
   }
 }
 
 .Hero{
+  gap: 20px;
   margin-bottom: 100px;
   @include mobile(){
     margin-bottom: 50px;
   }
   margin-top: 50px;
-  gap: 20px;
-  flex: 1;
-
  padding:100px 20px 80px 20px ;
-  h2{
+  h4{
     color: #022B3B;
     @include mobile(){
-      font-size:1.25rem;
+      font-size: 1.5rem;
     }
-    
-    font-size:1.75rem ;
+    font-size:2.25rem ;
   }
   p{
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-family: monospace;
   color: #022B3B;
     @include mobile(){
-      font-size: 0.875rem;
+      font-size: 1rem;
     }
  
   }

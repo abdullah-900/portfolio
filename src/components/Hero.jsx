@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from "react";
-import { Row } from 'react-bootstrap';
+import { Row,Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
 
@@ -23,25 +23,17 @@ function TypingAnimation({ text, delay }) {
 
     return () => clearInterval(intervalId);
   }, [text, delay, currentIndex]);
-  return <p className='text-sm'>{displayText}</p>;
+  return <p>{displayText}</p>;
 }
   return (
-  
-    <Container id='hero'  fluid className='my-flex Hero flex-column' >
-<Row>
+  <>
+    <Container id='hero' fluid  className='my-flex Hero flex-column' >
 <Image style={{width:'150px' ,height:'150px'}}  src='myimage.png'  />
-</Row>
-<Row>
-  <h2>Hi, Im Abdullah</h2>
-</Row>
-<Row>
-<TypingAnimation   text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.
-         Specializes in creating high-quality, responsive web applications with clean, efficient code.
-         Committed to collaboration and delivering exceptional user experiences. Let's build something great together!" delay={70} />
-</Row>
+<Row><h4>Hi, Im Abdullah</h4> </Row> 
+<TypingAnimation  text="skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript.Specializes in creating high-quality, responsive web applications with clean, efficient code.Committed to collaboration and delivering exceptional user experiences. Let's build something great together!" delay={70} />
     </Container>
-
-
+    
+</>
 
    
   )

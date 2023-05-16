@@ -186,7 +186,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data and allows users to add movies to their favorites list.<br></br>
+        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data. It allows users to explore movies, add them to their favorites list, and view ratings and reviews in a compact format when they click on the movie's rating.<br></br>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
@@ -404,7 +404,7 @@ const ProjectGallery = () => {
       </Modal>
       <Card.Body>
         <Card.Title>Movie App</Card.Title>
-        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data and allows users to add movies to their favorites list.<br></br>
+        FilmFinder is a React and SCSS-based movie search app that utilizes the TMDB API to fetch movie data. It allows users to explore movies, add them to their favorites list, and view ratings and reviews in a compact format when they click on the movie's rating.<br></br>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
      <Button href="https://abdullah-900.github.io/movieapp/" target="_blank" variant="primary">visit</Button>
