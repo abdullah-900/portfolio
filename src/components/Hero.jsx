@@ -27,6 +27,7 @@ function TypingAnimation({ text, delay }) {
 }
   return (
   <>
+
     <Container id='hero' fluid  className='my-flex Hero flex-column' >
 <Image style={{width:'150px' ,height:'150px'}}  src='myimage.png'  />
 <Row><h4>Hi, Im Abdullah</h4> </Row> 

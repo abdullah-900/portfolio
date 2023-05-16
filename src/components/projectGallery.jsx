@@ -115,7 +115,7 @@ const ProjectGallery = () => {
 
       </Card.Body>
      <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://dynamic-madeleine-302dff.netlify.app" target="_blank" variant="primary">visit</Button>
+     <Button href="https://main.d8uzwaw1a5stp.amplifyapp.com/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/chat-app'>
      <BsGithub color='black'  size='2rem'/>
      </a>
@@ -243,7 +243,7 @@ const ProjectGallery = () => {
         <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
+     <Button href="https://todo-list-e6suekvz5-abdullah-900.vercel.app/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/Todo-List'>
      <BsGithub color='black'  size='2rem'/>
      </a>
@@ -334,7 +334,7 @@ const ProjectGallery = () => {
         <p>A chat application with user authentication, real-time messaging, profile customization, and emoji support, built using Next.js, React, Firebase, SCSS, and the Emojihub API. </p>
       </Card.Body>
      <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://dynamic-madeleine-302dff.netlify.app" target="_blank" variant="primary">visit</Button>
+     <Button href="https://main.d8uzwaw1a5stp.amplifyapp.com/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/chat-app'>
      <BsGithub color='black'  size='2rem'/>
      </a>
@@ -461,7 +461,7 @@ const ProjectGallery = () => {
         <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://enchanting-snickerdoodle-a59706.netlify.app" target="_blank" variant="primary">visit</Button>
+     <Button href="https://todo-list-e6suekvz5-abdullah-900.vercel.app/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/Todo-List'>
      <BsGithub color='black'  size='2rem'/>
      </a>
