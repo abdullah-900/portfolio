@@ -243,7 +243,7 @@ const ProjectGallery = () => {
         <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://todo-list-e6suekvz5-abdullah-900.vercel.app/" target="_blank" variant="primary">visit</Button>
+     <Button href="https://todo-list-lake-theta.vercel.app/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/Todo-List'>
      <BsGithub color='black'  size='2rem'/>
      </a>
@@ -461,7 +461,7 @@ const ProjectGallery = () => {
         <p>A React-based Todo app that utilizes local storage to store todos and fetches motivational quotes from an API to inspire users to complete their tasks.</p>
       </Card.Body>
       <Container fluid  className="d-flex cardbuttons justify-content-around">
-     <Button href="https://todo-list-e6suekvz5-abdullah-900.vercel.app/" target="_blank" variant="primary">visit</Button>
+     <Button href="https://todo-list-lake-theta.vercel.app/" target="_blank" variant="primary">visit</Button>
      <a href='https://github.com/abdullah-900/Todo-List'>
      <BsGithub color='black'  size='2rem'/>
      </a>
