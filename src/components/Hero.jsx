@@ -37,7 +37,7 @@ function TypingAnimation({ text, delay }) {
         <h4>Hi, I'm Abdullah</h4>
       </Row>
           <TypingAnimation
-            text="Skilled engineer with expertise in React, Bootstrap, CSS, and JavaScript. Specializes in creating high-quality, responsive web applications with clean, efficient code. Committed to collaboration and delivering exceptional user experiences. Let's build something great together!"
+            text="Skilled engineer with expertise in React, Bootstrap, Html, Css, Javascript and Firebase. Specializes in creating high-quality, responsive web applications with clean, efficient code. Committed to collaboration and delivering exceptional user experiences. Let's build something great together!"
             delay={70}
           />
     </Container>
