@@ -2,8 +2,8 @@
 
 This is a simple portfolio project built using React and React Bootstrap. It showcases my skills, projects, and provides a way to contact me. Below, you'll find a brief description of each section.
 
-## [Link to Deployed Portfolio]
-(https://abdullah-900.github.io/portfolio/)
+## Link
+https://abdullah-900.github.io/portfolio/
 
 ## Sections
 
