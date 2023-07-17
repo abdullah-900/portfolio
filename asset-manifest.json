@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e740e4bd.css",
-    "main.js": "/portfolio/static/js/main.ab6cc1d3.js",
-    "static/media/ArchitectsDaughter-Regular.ttf": "/portfolio/static/media/ArchitectsDaughter-Regular.97e4b635030c7d8a85d5.ttf",
+    "main.css": "/portfolio/static/css/main.78534fe0.css",
+    "main.js": "/portfolio/static/js/main.1ef52208.js",
+    "static/media/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf": "/portfolio/static/media/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.a0b7e10dce05a30f5799.ttf",
     "index.html": "/portfolio/index.html",
-    "main.e740e4bd.css.map": "/portfolio/static/css/main.e740e4bd.css.map",
-    "main.ab6cc1d3.js.map": "/portfolio/static/js/main.ab6cc1d3.js.map"
+    "main.78534fe0.css.map": "/portfolio/static/css/main.78534fe0.css.map",
+    "main.1ef52208.js.map": "/portfolio/static/js/main.1ef52208.js.map"
   },
   "entrypoints": [
-    "static/css/main.e740e4bd.css",
-    "static/js/main.ab6cc1d3.js"
+    "static/css/main.78534fe0.css",
+    "static/js/main.1ef52208.js"
   ]
 }
