@@ -6,14 +6,14 @@ const Contact = () => {
   let val;
 const screenWidth = window.innerWidth;
 if (screenWidth<=500) {
-  val=35;
+  val='1.8rem';
 }else {
-  val=50;
+  val='2.2rem';
 }
 
   return (
     <div> 
-    <Container fluid id='contact'    className='my-flex flex-column contact'>
+    <Container fluid id='contact' className='my-flex flex-column contact'>
     <h2>Get In Touch</h2>
 
        <Row>

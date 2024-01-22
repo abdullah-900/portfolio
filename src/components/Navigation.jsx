@@ -4,12 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState } from 'react';
+
 const Navigation = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
 
-  const closeOffcanvas = () => {
-    setShowOffcanvas(false);
-  };
   const handleLinkClick = () => {
     setShowOffcanvas(false);
     setTimeout(() => {
@@ -25,9 +23,11 @@ const Navigation = () => {
 
   return (
     <>
-    <Navbar  expand={'md'} >
+    <Navbar fixed='top'  expand={'md'} >
     <Container fluid>
-      <Navbar.Brand onClick={()=>window.open('https://www.dropbox.com/s/2q1tb8hyenjc0df/abdullah%20mostafa%20ibrahim.pdf?dl=0')} style={{cursor:'pointer'}}>Resume</Navbar.Brand>
+      <Navbar.Brand >
+        <img width='200px' src='abdullah-mostafa-high-resolution-logo-white-on-transparent-background.svg'></img>
+      </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`} 
              onClick={() => setShowOffcanvas(true)}
             />
@@ -36,13 +36,13 @@ const Navigation = () => {
               aria-labelledby={`offcanvasNavbarLabel-expand-${'md'}`}
               placement="end"
               show={showOffcanvas} 
-              
+              onHide={()=>setShowOffcanvas(false)}
             >
                  <Offcanvas.Header closeButton>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href='#hero' onClick={handleLinkClick} >Me</Nav.Link>
+                <Nav.Link href='#hero'   onClick={handleLinkClick} >Me</Nav.Link>
                 <Nav.Link href='#skills' onClick={handleLinkClick}>Skills</Nav.Link>
                <Nav.Link href='#projects'onClick={handleLinkClick}>Projects</Nav.Link>
                <Nav.Link href='#contact'onClick={handleLinkClick}>Contact</Nav.Link>
